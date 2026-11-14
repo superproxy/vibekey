@@ -1,7 +1,7 @@
 {
-  "schema": "vibekey.keymap/v1",
-  "name": "vibekey v1",
-  "title": "快意编程 v1 / vibekey",
+  "schema": "axonkey.keymap/v1",
+  "name": "axonkey v1",
+  "title": "AxonKey v1 / 快意编程 v1",
   "device": {
     "product": "Xiaomi Bluetooth Remote 2 Pro",
     "model": "RC003"
@@ -388,5 +388,6 @@
     "profile create may switch the active global profile to the newly created one; restore the intended active profile afterwards.",
     "Official default shortcuts will not match machines where the user remapped them.",
     "Mappings were checked by CLI readback, not by formal hands-on feel testing."
-  ]
+  ],
+  "projectAlias": "vibekey / vibecontroller"
 }

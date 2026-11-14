@@ -1,4 +1,6 @@
-# vibekey v1 键位配置
+# AxonKey v1 键位配置
+
+这是面向 AxonKey 的键位文件。项目里也称为 vibekey / vibecontroller，但仓库中的配置文件以 axonkey 命名。
 
 适用：Windows 上的 AxonKey 1.9.6，小米蓝牙遥控器 2 Pro（RC003）。
 
