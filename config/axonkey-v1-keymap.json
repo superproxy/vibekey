@@ -1,0 +1,393 @@
+{
+  "schema": "axonkey.keymap/v1",
+  "name": "axonkey v1",
+  "title": "AxonKey v1 / 快意编程 v1",
+  "device": {
+    "product": "Xiaomi Bluetooth Remote 2 Pro",
+    "model": "RC003"
+  },
+  "software": {
+    "name": "AxonKey",
+    "testedVersion": "1.9.6",
+    "platform": "Windows"
+  },
+  "disclaimer": "This is a reusable keymap convention for the official AxonKey CLI. It is not an official AxonKey backup or import file. Bind apps to the application ID AxonKey observes on your machine. Do not copy another machine's paths, instance IDs, or profile UUIDs.",
+  "rules": [
+    "Empty slots preserve the remote's original input and do not inherit the global profile.",
+    "Shared habits must be written into every application profile.",
+    "Foreground application switching uses the whole profile when auto-switch is on.",
+    "Unlisted double-click and long-press slots stay preserved."
+  ],
+  "sharedMappings": [
+    {
+      "button": "up",
+      "trigger": "click",
+      "action": {
+        "type": "wheel",
+        "direction": "up"
+      }
+    },
+    {
+      "button": "down",
+      "trigger": "click",
+      "action": {
+        "type": "wheel",
+        "direction": "down"
+      }
+    },
+    {
+      "button": "back",
+      "trigger": "click",
+      "action": {
+        "type": "key",
+        "key": "Esc"
+      }
+    },
+    {
+      "button": "home",
+      "trigger": "click",
+      "action": {
+        "type": "shortcut",
+        "keys": [
+          "Alt",
+          "Tab"
+        ]
+      },
+      "note": "Switches to the previous app. The shortcut is a full press-and-release, so the switcher usually does not stay open."
+    },
+    {
+      "button": "confirm",
+      "trigger": "click",
+      "action": {
+        "type": "key",
+        "key": "Enter"
+      },
+      "note": "May send a chat message or run a terminal command when that field is focused."
+    },
+    {
+      "button": "confirm",
+      "trigger": "longPress",
+      "action": {
+        "type": "preserve"
+      }
+    },
+    {
+      "button": "voice",
+      "trigger": "all",
+      "action": {
+        "type": "preserve"
+      },
+      "note": "Voice is a hold-to-talk virtual microphone path, not a start-recording shortcut."
+    },
+    {
+      "button": "volumeUp",
+      "trigger": "all",
+      "action": {
+        "type": "preserve"
+      }
+    },
+    {
+      "button": "volumeDown",
+      "trigger": "all",
+      "action": {
+        "type": "preserve"
+      }
+    },
+    {
+      "button": "power",
+      "trigger": "all",
+      "action": {
+        "type": "preserve"
+      }
+    },
+    {
+      "button": "tv",
+      "trigger": "all",
+      "action": {
+        "type": "preserve"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "name": "快意编程v1-全局",
+      "role": "global",
+      "bindTo": null,
+      "overrides": [
+        {
+          "button": "menu",
+          "trigger": "click",
+          "action": {
+            "type": "preserve"
+          }
+        },
+        {
+          "button": "left",
+          "trigger": "click",
+          "action": {
+            "type": "preserve"
+          }
+        },
+        {
+          "button": "right",
+          "trigger": "click",
+          "action": {
+            "type": "preserve"
+          }
+        }
+      ]
+    },
+    {
+      "name": "快意编程v1-Grok Bot",
+      "role": "application",
+      "bindTo": {
+        "app": "Grok Bot",
+        "matchHint": "Grok Bot.exe, use the application ID AxonKey observes"
+      },
+      "overrides": [
+        {
+          "button": "left",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Alt",
+              "Up"
+            ]
+          },
+          "source": "Grok Bot official default, feel not formally accepted"
+        },
+        {
+          "button": "right",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Alt",
+              "Down"
+            ]
+          },
+          "source": "Grok Bot official default, feel not formally accepted"
+        },
+        {
+          "button": "menu",
+          "trigger": "click",
+          "action": {
+            "type": "preserve"
+          }
+        }
+      ]
+    },
+    {
+      "name": "快意编程v1-WorkBuddy",
+      "role": "application",
+      "bindTo": {
+        "app": "WorkBuddy",
+        "matchHint": "WorkBuddy.exe, use the application ID AxonKey observes"
+      },
+      "overrides": [
+        {
+          "button": "left",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Mod",
+              "["
+            ]
+          },
+          "source": "WorkBuddy official docs, Ctrl+[ previous task"
+        },
+        {
+          "button": "right",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Mod",
+              "]"
+            ]
+          },
+          "source": "WorkBuddy official docs, Ctrl+] next task"
+        },
+        {
+          "button": "menu",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Mod",
+              "K"
+            ]
+          },
+          "source": "WorkBuddy official default search, not locally re-verified"
+        }
+      ]
+    },
+    {
+      "name": "快意编程v1-企业微信",
+      "role": "application",
+      "bindTo": {
+        "app": "WeCom / 企业微信",
+        "matchHint": "WXWork.exe, use the application ID AxonKey observes"
+      },
+      "overrides": [
+        {
+          "button": "menu",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Ctrl",
+              "Alt",
+              "F"
+            ]
+          },
+          "source": "WeCom official default search"
+        },
+        {
+          "button": "left",
+          "trigger": "click",
+          "action": {
+            "type": "preserve"
+          }
+        },
+        {
+          "button": "right",
+          "trigger": "click",
+          "action": {
+            "type": "preserve"
+          }
+        }
+      ]
+    },
+    {
+      "name": "快意编程v1-Chrome",
+      "role": "application",
+      "bindTo": {
+        "app": "Google Chrome",
+        "matchHint": "chrome.exe, use the application ID AxonKey observes"
+      },
+      "overrides": [
+        {
+          "button": "left",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Ctrl",
+              "Shift",
+              "Tab"
+            ]
+          },
+          "source": "Chrome official default, previous tab"
+        },
+        {
+          "button": "right",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Ctrl",
+              "Tab"
+            ]
+          },
+          "source": "Chrome official default, next tab"
+        },
+        {
+          "button": "back",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Alt",
+              "Left"
+            ]
+          },
+          "source": "Chrome official default, back"
+        },
+        {
+          "button": "menu",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Ctrl",
+              "L"
+            ]
+          },
+          "source": "Chrome official default, focus address bar"
+        }
+      ]
+    }
+  ],
+  "plannedProfiles": [
+    {
+      "name": "快意编程v1-Cursor",
+      "status": "not_landed",
+      "reason": "Create and bind only after AxonKey has observed a real Cursor application ID in the foreground. Do not invent the ID.",
+      "bindTo": {
+        "app": "Cursor",
+        "matchHint": "Cursor.exe, only after AxonKey observes it"
+      },
+      "overrides": [
+        {
+          "button": "menu",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Mod",
+              "P"
+            ]
+          },
+          "source": "Cursor official default, Go to File"
+        },
+        {
+          "button": "menu",
+          "trigger": "longPress",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Mod",
+              "I"
+            ]
+          },
+          "source": "Cursor official default, Open Chat"
+        },
+        {
+          "button": "left",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Ctrl",
+              "PageUp"
+            ]
+          },
+          "source": "Previous editor tab, not AI chat"
+        },
+        {
+          "button": "right",
+          "trigger": "click",
+          "action": {
+            "type": "shortcut",
+            "keys": [
+              "Ctrl",
+              "PageDown"
+            ]
+          },
+          "source": "Next editor tab, not AI chat"
+        }
+      ]
+    }
+  ],
+  "knownLimitations": [
+    "The voice key only forwards audio to the virtual microphone while it is held; a short press does not start an app recording control.",
+    "Home Alt+Tab does not keep the switcher open. An unwritten option is double-click Ctrl+Alt+Tab. Do not put this on long-press because of repeat.",
+    "profile create may switch the active global profile to the newly created one; restore the intended active profile afterwards.",
+    "Official default shortcuts will not match machines where the user remapped them.",
+    "Mappings were checked by CLI readback, not by formal hands-on feel testing."
+  ],
+  "projectAlias": "vibekey / vibecontroller"
+}
