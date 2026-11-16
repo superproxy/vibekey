@@ -1,7 +1,7 @@
 {
   "format": "axonkey-arn9",
   "version": 2,
-  "generatedAt": "2026-11-16T06:49:00.000Z",
+  "generatedAt": "2026-11-16T07:17:00.000Z",
   "appVersion": "1.9.6",
   "title": "快意编程v1",
   "activeProfileIds": {
@@ -686,6 +686,164 @@
               "keys": [
                 "Mod",
                 "L"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        }
+      }
+    },
+    {
+      "id": "arn9:7df90c00-57c8-4985-91bb-e96235b6b321",
+      "name": "快意编程v1-Cursor",
+      "deviceId": "arn9",
+      "applicationIds": [
+        "windows:c:\\users\\59300\\appdata\\local\\programs\\cursor\\cursor.exe"
+      ],
+      "keys": {
+        "power": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "voice": {
+          "click": [
+            {
+              "id": "voice-click-win-h",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Win",
+                "H"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "up": {
+          "click": [
+            {
+              "id": "up-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "up"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "left": {
+          "click": [
+            {
+              "id": "left-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "PageUp"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "confirm": {
+          "click": [
+            {
+              "id": "confirm-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Enter"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": [
+            {
+              "id": "confirm-longpress-submit",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Enter"
+              ]
+            }
+          ]
+        },
+        "right": {
+          "click": [
+            {
+              "id": "right-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "PageDown"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "down": {
+          "click": [
+            {
+              "id": "down-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "down"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "back": {
+          "click": [
+            {
+              "id": "back-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Esc"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeUp": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "home": {
+          "click": [
+            {
+              "id": "home-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeDown": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "menu": {
+          "click": [
+            {
+              "id": "menu-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "P"
               ]
             }
           ],

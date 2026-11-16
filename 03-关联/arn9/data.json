@@ -127,6 +127,21 @@
                    "button":  "right",
                    "trigger":  "click",
                    "capability":  "nextEditorTab"
+               },
+               {
+                   "profile":  "快意编程v1-Cursor",
+                   "button":  "confirm",
+                   "trigger":  "click",
+                   "action":  {
+                                  "type":  "key",
+                                  "key":  "Enter"
+                              }
+               },
+               {
+                   "profile":  "快意编程v1-Cursor",
+                   "button":  "confirm",
+                   "trigger":  "longPress",
+                   "capability":  "submitChat"
                }
            ],
     "L2":  [
