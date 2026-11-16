@@ -1,0 +1,7 @@
+{
+  "host": "SayAll",
+  "device": "rc003",
+  "voice": "hold-to-talk",
+  "otherButtons": "none",
+  "dataDir": "%LOCALAPPDATA%\\SayAll"
+}

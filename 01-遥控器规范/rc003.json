@@ -1,0 +1,19 @@
+{
+  "schema": "vibekey.remote-spec/v1",
+  "device": { "deviceId": "rc003" },
+  "tier": "L1",
+  "voice": { "status": "unadapted", "note": "语音功能未适配；按键方案保留 voice，另案处理" },
+  "sharedMappings": [
+    { "button": "up", "trigger": "click", "action": { "type": "wheel", "direction": "up" } },
+    { "button": "down", "trigger": "click", "action": { "type": "wheel", "direction": "down" } },
+    { "button": "back", "trigger": "click", "action": { "type": "key", "key": "Esc" } },
+    { "button": "home", "trigger": "click", "action": { "type": "shortcut", "keys": ["Alt", "Tab"] } },
+    { "button": "confirm", "trigger": "click", "action": { "type": "key", "key": "Enter" } },
+    { "button": "confirm", "trigger": "longPress", "action": { "type": "preserve" } },
+    { "button": "voice", "trigger": "all", "action": { "type": "preserve" } },
+    { "button": "volumeUp", "trigger": "all", "action": { "type": "preserve" } },
+    { "button": "volumeDown", "trigger": "all", "action": { "type": "preserve" } },
+    { "button": "power", "trigger": "all", "action": { "type": "preserve" } }
+  ],
+  "absentButtons": ["tv"]
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "vibekey.app-capabilities/v1",
+  "applications": [
+    {
+      "app": "Grok Bot",
+      "capabilities": [
+        { "id": "previousBot", "keys": ["Alt", "Up"] },
+        { "id": "nextBot", "keys": ["Alt", "Down"] }
+      ]
+    },
+    {
+      "app": "WorkBuddy",
+      "capabilities": [
+        { "id": "previousTask", "keys": ["Ctrl", "["] },
+        { "id": "nextTask", "keys": ["Ctrl", "]"] },
+        { "id": "search", "keys": ["Ctrl", "K"] }
+      ]
+    },
+    {
+      "app": "WeCom",
+      "capabilities": [
+        { "id": "search", "keys": ["Ctrl", "Alt", "F"] }
+      ]
+    },
+    {
+      "app": "Chrome",
+      "capabilities": [
+        { "id": "back", "keys": ["Alt", "Left"] },
+        { "id": "previousTab", "keys": ["Ctrl", "Shift", "Tab"] },
+        { "id": "nextTab", "keys": ["Ctrl", "Tab"] },
+        { "id": "focusAddressBar", "keys": ["Ctrl", "L"] }
+      ]
+    },
+    {
+      "app": "Cursor",
+      "status": "planned",
+      "capabilities": [
+        { "id": "goToFile", "keys": ["Ctrl", "P"] },
+        { "id": "openChat", "keys": ["Ctrl", "I"] },
+        { "id": "previousEditorTab", "keys": ["Ctrl", "PageUp"] },
+        { "id": "nextEditorTab", "keys": ["Ctrl", "PageDown"] }
+      ]
+    }
+  ]
+}

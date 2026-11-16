@@ -1,0 +1,658 @@
+{
+  "format": "axonkey-rc003",
+  "version": 2,
+  "generatedAt": "2026-11-16T06:29:17.812Z",
+  "appVersion": "1.9.6",
+  "title": "快意编程v1",
+  "activeProfileIds": {
+    "rc003": "rc003:7f38ef4f-d3af-40e0-a920-826e59fabf01"
+  },
+  "applicationProfileSwitching": {
+    "rc003": true
+  },
+  "profiles": [
+    {
+      "id": "rc003:7f38ef4f-d3af-40e0-a920-826e59fabf01",
+      "name": "快意编程v1-全局",
+      "deviceId": "rc003",
+      "applicationIds": [],
+      "keys": {
+        "power": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "voice": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "up": {
+          "click": [
+            {
+              "id": "up-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "up"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "left": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "confirm": {
+          "click": [
+            {
+              "id": "confirm-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Enter"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "right": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "down": {
+          "click": [
+            {
+              "id": "down-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "down"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "back": {
+          "click": [
+            {
+              "id": "back-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Esc"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeUp": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "home": {
+          "click": [
+            {
+              "id": "home-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeDown": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "menu": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        }
+      }
+    },
+    {
+      "id": "rc003:c1e23b22-b10e-4a24-b4fb-2c5de9db97ce",
+      "name": "快意编程v1-Grok Bot",
+      "deviceId": "rc003",
+      "applicationIds": [
+        "windows:c:\\program files\\grok bot\\grok bot.exe"
+      ],
+      "keys": {
+        "power": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "voice": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "up": {
+          "click": [
+            {
+              "id": "up-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "up"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "left": {
+          "click": [
+            {
+              "id": "left-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Up"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "confirm": {
+          "click": [
+            {
+              "id": "confirm-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Enter"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "right": {
+          "click": [
+            {
+              "id": "right-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Down"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "down": {
+          "click": [
+            {
+              "id": "down-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "down"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "back": {
+          "click": [
+            {
+              "id": "back-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Esc"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeUp": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "home": {
+          "click": [
+            {
+              "id": "home-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeDown": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "menu": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        }
+      }
+    },
+    {
+      "id": "rc003:c87670eb-52b1-4bae-87b1-b2118aac0ae6",
+      "name": "快意编程v1-WorkBuddy",
+      "deviceId": "rc003",
+      "applicationIds": [
+        "windows:c:\\users\\59300\\appdata\\local\\programs\\workbuddy\\workbuddy.exe"
+      ],
+      "keys": {
+        "power": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "voice": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "up": {
+          "click": [
+            {
+              "id": "up-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "up"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "left": {
+          "click": [
+            {
+              "id": "left-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "["
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "confirm": {
+          "click": [
+            {
+              "id": "confirm-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Enter"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "right": {
+          "click": [
+            {
+              "id": "right-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "]"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "down": {
+          "click": [
+            {
+              "id": "down-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "down"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "back": {
+          "click": [
+            {
+              "id": "back-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Esc"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeUp": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "home": {
+          "click": [
+            {
+              "id": "home-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeDown": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "menu": {
+          "click": [
+            {
+              "id": "menu-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "K"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        }
+      }
+    },
+    {
+      "id": "rc003:b58687de-4dd0-4470-8f0d-f0a904a49bcb",
+      "name": "快意编程v1-企业微信",
+      "deviceId": "rc003",
+      "applicationIds": [
+        "windows:d:\\program files (x86)\\wxwork\\wxwork.exe"
+      ],
+      "keys": {
+        "power": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "voice": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "up": {
+          "click": [
+            {
+              "id": "up-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "up"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "left": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "confirm": {
+          "click": [
+            {
+              "id": "confirm-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Enter"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "right": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "down": {
+          "click": [
+            {
+              "id": "down-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "down"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "back": {
+          "click": [
+            {
+              "id": "back-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Esc"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeUp": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "home": {
+          "click": [
+            {
+              "id": "home-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeDown": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "menu": {
+          "click": [
+            {
+              "id": "menu-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Alt",
+                "F"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        }
+      }
+    },
+    {
+      "id": "rc003:26b9dd9b-9eea-49df-af60-130b82ef060c",
+      "name": "快意编程v1-Chrome",
+      "deviceId": "rc003",
+      "applicationIds": [
+        "windows:c:\\program files\\google\\chrome\\application\\chrome.exe"
+      ],
+      "keys": {
+        "power": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "voice": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "up": {
+          "click": [
+            {
+              "id": "up-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "up"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "left": {
+          "click": [
+            {
+              "id": "left-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Shift",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "confirm": {
+          "click": [
+            {
+              "id": "confirm-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Enter"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "right": {
+          "click": [
+            {
+              "id": "right-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "down": {
+          "click": [
+            {
+              "id": "down-click-wheel",
+              "enabled": true,
+              "type": "wheel",
+              "direction": "down"
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "back": {
+          "click": [
+            {
+              "id": "back-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Left"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeUp": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "home": {
+          "click": [
+            {
+              "id": "home-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "volumeDown": {
+          "click": [],
+          "doubleClick": [],
+          "longPress": []
+        },
+        "menu": {
+          "click": [
+            {
+              "id": "menu-click-shortcut",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "L"
+              ]
+            }
+          ],
+          "doubleClick": [],
+          "longPress": []
+        }
+      }
+    }
+  ],
+  "savedBehaviors": [],
+  "settings": {
+    "enabled": true,
+    "mouseEnabled": true,
+    "showRemoteKeyGrid": true
+  },
+  "device": "rc003",
+  "voice": {
+    "status": "unadapted"
+  }
+}

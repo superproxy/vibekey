@@ -1,0 +1,22 @@
+{
+  "schema": "vibekey.remote-spec/v1",
+  "device": { "deviceId": "arn9" },
+  "tier": "L1",
+  "voice": {
+    "status": "win-h-toggle",
+    "note": "映射程序不支持蓝牙录音；voice.click = Win+H，再按关闭/完成"
+  },
+  "sharedMappings": [
+    { "button": "up", "trigger": "click", "action": { "type": "wheel", "direction": "up" } },
+    { "button": "down", "trigger": "click", "action": { "type": "wheel", "direction": "down" } },
+    { "button": "back", "trigger": "click", "action": { "type": "key", "key": "Esc" } },
+    { "button": "home", "trigger": "click", "action": { "type": "shortcut", "keys": ["Alt", "Tab"] } },
+    { "button": "confirm", "trigger": "click", "action": { "type": "key", "key": "Enter" } },
+    { "button": "confirm", "trigger": "longPress", "action": { "type": "preserve" } },
+    { "button": "voice", "trigger": "click", "action": { "type": "shortcut", "keys": ["Win", "H"] } },
+    { "button": "volumeUp", "trigger": "all", "action": { "type": "preserve" } },
+    { "button": "volumeDown", "trigger": "all", "action": { "type": "preserve" } },
+    { "button": "power", "trigger": "all", "action": { "type": "preserve" } }
+  ],
+  "absentButtons": ["tv"]
+}

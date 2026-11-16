@@ -1,0 +1,30 @@
+{
+  "schema": "vibekey.binding/v1",
+  "device": "rc003",
+  "L1": [
+    { "profile": "快意编程v1-全局", "button": "menu", "trigger": "click", "action": "preserve" },
+    { "profile": "快意编程v1-全局", "button": "left", "trigger": "click", "action": "preserve" },
+    { "profile": "快意编程v1-全局", "button": "right", "trigger": "click", "action": "preserve" },
+    { "profile": "快意编程v1-Grok Bot", "button": "left", "trigger": "click", "capability": "previousBot" },
+    { "profile": "快意编程v1-Grok Bot", "button": "right", "trigger": "click", "capability": "nextBot" },
+    { "profile": "快意编程v1-Grok Bot", "button": "menu", "trigger": "click", "action": "preserve" },
+    { "profile": "快意编程v1-WorkBuddy", "button": "left", "trigger": "click", "capability": "previousTask" },
+    { "profile": "快意编程v1-WorkBuddy", "button": "right", "trigger": "click", "capability": "nextTask" },
+    { "profile": "快意编程v1-WorkBuddy", "button": "menu", "trigger": "click", "capability": "search" },
+    { "profile": "快意编程v1-企业微信", "button": "menu", "trigger": "click", "capability": "search" },
+    { "profile": "快意编程v1-企业微信", "button": "left", "trigger": "click", "action": "preserve" },
+    { "profile": "快意编程v1-企业微信", "button": "right", "trigger": "click", "action": "preserve" },
+    { "profile": "快意编程v1-Chrome", "button": "back", "trigger": "click", "capability": "back" },
+    { "profile": "快意编程v1-Chrome", "button": "left", "trigger": "click", "capability": "previousTab" },
+    { "profile": "快意编程v1-Chrome", "button": "right", "trigger": "click", "capability": "nextTab" },
+    { "profile": "快意编程v1-Chrome", "button": "menu", "trigger": "click", "capability": "focusAddressBar" },
+    { "profile": "快意编程v1-Cursor", "button": "menu", "trigger": "click", "capability": "goToFile" },
+    { "profile": "快意编程v1-Cursor", "button": "left", "trigger": "click", "capability": "previousEditorTab" },
+    { "profile": "快意编程v1-Cursor", "button": "right", "trigger": "click", "capability": "nextEditorTab" }
+  ],
+  "L2": [
+    { "profile": "快意编程v1-Cursor", "button": "menu", "trigger": "longPress", "capability": "openChat", "status": "planned" },
+    { "button": "home", "trigger": "doubleClick", "keys": ["Ctrl", "Alt", "Tab"], "status": "unused" },
+    { "button": "tv", "trigger": "click", "action": { "type": "switchProfile", "direction": "next", "wrap": true }, "status": "unused" }
+  ]
+}
