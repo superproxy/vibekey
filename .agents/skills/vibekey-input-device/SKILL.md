@@ -204,5 +204,5 @@ axonkey-cli mapping set --instance 18e7d7532e470190-0 --profile "快意编程v1-
 - [ ] 其它键与约定型号一致（当前=rc003）
 - [ ] Cursor：`confirm.longPress` = Mod+Enter；已 `axonkey-cli` 写入并回读
 - [ ] 全局：`home` 单击=Win+Tab；左/右=选窗；长按/双击=立刻上一/下一；已 cli 回读
-- [ ] 企微：左/右=Ctrl+Up/Down；音量±=Ctrl+Tab / Ctrl+Shift+Tab；已 cli 回读
+- [ ] 企微：左/右=Ctrl+Up/Down；音量±=Ctrl+Shift+Tab / Ctrl+Tab；已 cli 回读
 - [ ] 改键后已更新 `agents/sync/sync-log.md`
