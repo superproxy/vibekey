@@ -489,7 +489,17 @@
           "longPress": []
         },
         "left": {
-          "click": [],
+          "click": [
+            {
+              "id": "left-click-prev-chat",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Up"
+              ]
+            }
+          ],
           "doubleClick": [],
           "longPress": []
         },
@@ -506,7 +516,17 @@
           "longPress": []
         },
         "right": {
-          "click": [],
+          "click": [
+            {
+              "id": "right-click-next-chat",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Down"
+              ]
+            }
+          ],
           "doubleClick": [],
           "longPress": []
         },
@@ -535,7 +555,18 @@
           "longPress": []
         },
         "volumeUp": {
-          "click": [],
+          "click": [
+            {
+              "id": "volumeUp-click-prev-nav",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Shift",
+                "Tab"
+              ]
+            }
+          ],
           "doubleClick": [],
           "longPress": []
         },
@@ -555,7 +586,17 @@
           "longPress": []
         },
         "volumeDown": {
-          "click": [],
+          "click": [
+            {
+              "id": "volumeDown-click-next-nav",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Mod",
+                "Tab"
+              ]
+            }
+          ],
           "doubleClick": [],
           "longPress": []
         },

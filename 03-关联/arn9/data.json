@@ -121,13 +121,25 @@
                    "profile":  "快意编程v1-企业微信",
                    "button":  "left",
                    "trigger":  "click",
-                   "action":  "preserve"
+                   "capability":  "previousChat"
                },
                {
                    "profile":  "快意编程v1-企业微信",
                    "button":  "right",
                    "trigger":  "click",
-                   "action":  "preserve"
+                   "capability":  "nextChat"
+               },
+               {
+                   "profile":  "快意编程v1-企业微信",
+                   "button":  "volumeUp",
+                   "trigger":  "click",
+                   "capability":  "previousNav"
+               },
+               {
+                   "profile":  "快意编程v1-企业微信",
+                   "button":  "volumeDown",
+                   "trigger":  "click",
+                   "capability":  "nextNav"
                },
                {
                    "profile":  "快意编程v1-Chrome",

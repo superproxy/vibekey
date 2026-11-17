@@ -10,3 +10,6 @@
 | 2026-11-17 | 全局主页 B+delay | home.click = Ctrl+Alt+Tab + delay 500ms；cli 已写 |
 | 2026-11-17 | 全局主页改 Win+Tab | home.click = Win+Tab；已 activate 全局便于测试 |
 | 2026-11-17 | 定稿 Win+Tab 切窗 | 全局采用主页=Win+Tab + 左/右选 + 确认进入 |
+| 2026-11-17 | 企微左右+音量 | 左/右=Ctrl+Left/Right 切聊天；音量±=Ctrl+Tab/Shift+Tab 切功能分类 |
+| 2026-11-17 | 企微改上下箭头 | 左/右=Ctrl+Up/Down 切聊天 |
+| 2026-11-17 | 企微音量方向对调 | 音量+=Ctrl+Shift+Tab，音量-=Ctrl+Tab |
