@@ -50,7 +50,14 @@
           "longPress": []
         },
         "left": {
-          "click": [],
+          "click": [
+            {
+              "id": "left-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Left"
+            }
+          ],
           "doubleClick": [],
           "longPress": []
         },
@@ -67,7 +74,14 @@
           "longPress": []
         },
         "right": {
-          "click": [],
+          "click": [
+            {
+              "id": "right-click-key",
+              "enabled": true,
+              "type": "key",
+              "key": "Right"
+            }
+          ],
           "doubleClick": [],
           "longPress": []
         },
@@ -103,7 +117,18 @@
         "home": {
           "click": [
             {
-              "id": "home-click-shortcut",
+              "id": "home-click-taskview",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Win",
+                "Tab"
+              ]
+            }
+          ],
+          "doubleClick": [
+            {
+              "id": "home-doubleclick-next",
               "enabled": true,
               "type": "shortcut",
               "keys": [
@@ -112,8 +137,18 @@
               ]
             }
           ],
-          "doubleClick": [],
-          "longPress": []
+          "longPress": [
+            {
+              "id": "home-longpress-prev",
+              "enabled": true,
+              "type": "shortcut",
+              "keys": [
+                "Alt",
+                "Shift",
+                "Tab"
+              ]
+            }
+          ]
         },
         "volumeDown": {
           "click": [],

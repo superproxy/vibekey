@@ -73,6 +73,28 @@ description: >-
 | 确认 | 单击 | Enter（换行） |
 | 确认 | 长按 | Mod+Enter（提交；Win 上 Mod=Ctrl） |
 
+## 全局：主页 Win+Tab + 左/右选窗
+
+仅「快意编程v1-全局」；其它 profile 主页仍只单击 Alt+Tab。上/下仍滚轮。
+
+| 键 | 触发 | 动作 |
+| --- | --- | --- |
+| 主页 | 单击 | Win+Tab（任务视图） |
+| 左 / 右 | 单击 | Left / Right（视图内选窗） |
+| 确认 | 单击 | Enter（选定） |
+| 返回 | 单击 | Esc（关闭） |
+| 主页 | 长按 | Alt+Shift+Tab（立刻上一窗） |
+| 主页 | 双击 | Alt+Tab（立刻下一窗） |
+
+```powershell
+$profile = "快意编程v1-全局"
+Set-Seq home click '[{"type":"shortcut","keys":["Win","Tab"],"enabled":true}]'
+Set-Seq home longPress '[{"type":"shortcut","keys":["Alt","Shift","Tab"],"enabled":true}]'
+Set-Seq home doubleClick '[{"type":"shortcut","keys":["Alt","Tab"],"enabled":true}]'
+Set-Seq left click '[{"type":"key","key":"Left","enabled":true}]'
+Set-Seq right click '[{"type":"key","key":"Right","enabled":true}]'
+```
+
 ## axonkey-cli（本机同步）
 
 CLI：`%LOCALAPPDATA%\Axonkey\axonkey-cli.exe`  
@@ -166,4 +188,5 @@ axonkey-cli mapping set --instance 18e7d7532e470190-0 --profile "快意编程v1-
 - [ ] arn9：不写 SayAll 依赖
 - [ ] 其它键与约定型号一致（当前=rc003）
 - [ ] Cursor：`confirm.longPress` = Mod+Enter；已 `axonkey-cli` 写入并回读
+- [ ] 全局：`home` 单击=面板；左/右=选窗；长按/双击=立刻上一/下一；已 cli 回读
 - [ ] 改键后已更新 `agents/sync/sync-log.md`
